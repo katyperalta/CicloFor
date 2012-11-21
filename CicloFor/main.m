@@ -14,7 +14,18 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+      
+        int n, numeroTriangular;
+        numeroTriangular=0;
+        NSLog(@"TABLA DE NUMEROS TRIANGULARES");
+        NSLog(@"n Suma de 1 a N");
+         NSLog(@"---------------");
+        for (n=1; n<=200;n++ ) {
+            
+            numeroTriangular+=n;
+             NSLog(@"%i             %i",n,numeroTriangular);
+        }
+        
         
     }
     return 0;
